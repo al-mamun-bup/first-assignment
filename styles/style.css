@@ -368,3 +368,34 @@ body {
 .support-form button:hover {
     background-color: #0056b3;
 }
+
+/* Footer Section */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    font-family: 'Azeret Mono', monospace;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.social-icons a {
+    margin-left: 15px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
