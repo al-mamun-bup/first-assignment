@@ -156,5 +156,93 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* Full viewport height */
+}
+
+/* Current Target Section */
+.current-target {
+    margin-top: 50px;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.current-target .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.current-target .section-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+}
+
+.current-target .section-title p {
+    font-size: 16px;
+    color: #777;
+    margin-top: 10px;
+}
+
+.target-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.target-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+    flex: 1;
+    transition: transform 0.3s ease;
+}
+
+.target-card:hover {
+    transform: translateY(-10px);
+}
+
+.target-card img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.target-card h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.target-card p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.target-card a {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.target-card a:hover {
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+}
+
+/* Custom background colors for each card */
+.html-card {
+    background-color: #fff3f1;
+}
+
+.css-card {
+    background-color: #f0f6ff;
+}
+
+.js-card {
+    background-color: #fff9e6;
 }
