@@ -246,3 +246,125 @@ body {
 .js-card {
     background-color: #fff9e6;
 }
+
+.my-next-target {
+    text-align: center;
+    margin: 50px 0;
+    box-shadow: 0 10px 15px rgba(13, 19, 33, 0.02);
+}
+
+.my-next-target .section-title h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.my-next-target .section-title p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.target-list {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.target-item {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.target-item img {
+    width: 60px;
+    margin-right: 20px;
+}
+
+.target-item h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.target-item p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.target-item a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Support Section */
+.support-section {
+    position: relative;
+    background-image: url('../assets/handshake.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.support-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    /* Dark overlay for better text visibility */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.support-section h2 {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.support-section p {
+    color: #f8f8f8;
+    font-size: 1em;
+    margin-bottom: 20px;
+
+}
+
+.support-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.support-form input {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 300px;
+    background-color: white;
+
+}
+
+.support-form button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.support-form button:hover {
+    background-color: #0056b3;
+}
